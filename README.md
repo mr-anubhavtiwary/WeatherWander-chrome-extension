@@ -1,10 +1,24 @@
-# React Chrome Extension Boilerplate
+## Description
+
+WeatherWander - Your Ultimate Weather Companion
+
+Stay ahead of the weather with WeatherWander, the sleek and reliable Chrome extension that provides real-time weather updates and forecasts. Whether you're planning your day, week, or month, WeatherWander keeps you informed with accurate weather information right at your fingertips.
+
+## Key Features:
+
+1. Real-Time Updates: Get current weather conditions including temperature, humidity, wind speed, and more, updated every minute.
+   Detailed Forecasts: Access hourly, daily, and weekly forecasts to plan your activities with confidence.
+   Customizable Notifications: Set up personalized weather alerts for severe weather, temperature changes, or daily summaries.
+2. Interactive Radar: View live radar maps to track storms, precipitation, and other weather patterns.
+3. Global Coverage: Check weather conditions for any location around the world.
+   Minimalist Design: Enjoy a clean and user-friendly interface that integrates seamlessly with your browser.
+4. Quick Access: Pin WeatherWise to your toolbar for instant weather updates without interrupting your browsing experience.
+5. Widgets: Add weather widgets to your new tab page for at-a-glance updates.
 
 ## Getting Started
 
 1. `npm i` to install dependancies
 2. `npm start` to start running the fast development mode Webpack build process that bundle files into the `dist` folder
-3. `npm i --save-dev <package_name>` to install new packages
 
 ## Loading The Chrome Extension
 
@@ -13,21 +27,10 @@
 3. Click `Load unpacked`
 4. Select the entire `dist` folder
 
-# Important Initial Steps
+## How It Works:
 
-1. `git init` to start a new git repo for tracking your changes, do an initial base commit with all the default files
-2. Update `package.json`, important fields include `author`, `version`, `name` and `description`
-3. Update `manifest.json`, important fields include `version`, `name` and `description`
-4. Update `webpack.commmon.js`, the title in the `getHtmlPlugins` function should be your extension name
+1. Install the Extension: Add WeatherWise to your Chrome browser from the Chrome Web Store.
+2. Set Your Location: Enter your preferred location(s) for tailored weather information.
+3. Stay Informed: Receive updates directly in your browser.
 
-# Production Build
-
-1. `npm run build` to generate a minimized production build in the `dist` folder
-2. ZIP the entire `dist` folder (e.g. `dist.zip`)
-3. Publish the ZIP file on the Chrome Web Store Developer Dashboard!
-
-## Important Default Boilerplate Notes
-
-- Folders get flattened, static references to images from HTML do not need to be relative (i.e. `icon.png` instead of `../static/icon.png`)
-- Importing local ts/tsx/css files should be relative, since Webpack will build a dependancy graph using these paths
-- Update the manifest file as per usual for chrome related permissions, references to files in here should also be flattened and not be relative
+Whether you're a weather enthusiast or just want to stay prepared, WeatherWander is the perfect tool to keep you updated on all things weather.
